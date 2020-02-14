@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D12DCF2523F523810045A651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DCF2423F523810045A651 /* AppDelegate.swift */; };
+		D12DCF2723F523810045A651 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DCF2623F523810045A651 /* SceneDelegate.swift */; };
+		D12DCF2923F523810045A651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DCF2823F523810045A651 /* ViewController.swift */; };
+		D12DCF2C23F523810045A651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12DCF2A23F523810045A651 /* Main.storyboard */; };
+		D12DCF2E23F523820045A651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12DCF2D23F523820045A651 /* Assets.xcassets */; };
+		D12DCF3123F523830045A651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12DCF2F23F523830045A651 /* LaunchScreen.storyboard */; };
+		D12DCF3C23F523830045A651 /* Harkkatyo_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DCF3B23F523830045A651 /* Harkkatyo_Tests.swift */; };
+		D12DCF4723F523830045A651 /* Harkkatyo_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DCF4623F523830045A651 /* Harkkatyo_UITests.swift */; };
+		D1E9EC7523F6886D00525771 /* SceneDelegate.swift in Resources */ = {isa = PBXBuildFile; fileRef = D12DCF2623F523810045A651 /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D12DCF3823F523830045A651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12DCF1923F523810045A651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12DCF2023F523810045A651;
+			remoteInfo = "Harkkatyö";
+		};
+		D12DCF4323F523830045A651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12DCF1923F523810045A651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12DCF2023F523810045A651;
+			remoteInfo = "Harkkatyö";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D12DCF2123F523810045A651 /* Harkkatyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harkkatyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12DCF2423F523810045A651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D12DCF2623F523810045A651 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D12DCF2823F523810045A651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D12DCF2B23F523810045A651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D12DCF2D23F523820045A651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D12DCF3023F523830045A651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D12DCF3223F523830045A651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12DCF3723F523830045A651 /* HarkkatyöTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HarkkatyöTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12DCF3B23F523830045A651 /* Harkkatyo_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harkkatyo_Tests.swift; sourceTree = "<group>"; };
+		D12DCF3D23F523830045A651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12DCF4223F523830045A651 /* HarkkatyöUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HarkkatyöUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12DCF4623F523830045A651 /* Harkkatyo_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harkkatyo_UITests.swift; sourceTree = "<group>"; };
+		D12DCF4823F523830045A651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D12DCF1E23F523810045A651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12DCF3423F523830045A651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12DCF3F23F523830045A651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D12DCF1823F523810045A651 = {
+			isa = PBXGroup;
+			children = (
+				D12DCF2323F523810045A651 /* Harkkatyö */,
+				D12DCF3A23F523830045A651 /* HarkkatyöTests */,
+				D12DCF4523F523830045A651 /* HarkkatyöUITests */,
+				D12DCF2223F523810045A651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D12DCF2223F523810045A651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D12DCF2123F523810045A651 /* Harkkatyo.app */,
+				D12DCF3723F523830045A651 /* HarkkatyöTests.xctest */,
+				D12DCF4223F523830045A651 /* HarkkatyöUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D12DCF2323F523810045A651 /* Harkkatyö */ = {
+			isa = PBXGroup;
+			children = (
+				D12DCF2423F523810045A651 /* AppDelegate.swift */,
+				D12DCF2623F523810045A651 /* SceneDelegate.swift */,
+				D12DCF2823F523810045A651 /* ViewController.swift */,
+				D12DCF2A23F523810045A651 /* Main.storyboard */,
+				D12DCF2D23F523820045A651 /* Assets.xcassets */,
+				D12DCF2F23F523830045A651 /* LaunchScreen.storyboard */,
+				D12DCF3223F523830045A651 /* Info.plist */,
+			);
+			path = "Harkkatyö";
+			sourceTree = "<group>";
+		};
+		D12DCF3A23F523830045A651 /* HarkkatyöTests */ = {
+			isa = PBXGroup;
+			children = (
+				D12DCF3B23F523830045A651 /* Harkkatyo_Tests.swift */,
+				D12DCF3D23F523830045A651 /* Info.plist */,
+			);
+			path = "HarkkatyöTests";
+			sourceTree = "<group>";
+		};
+		D12DCF4523F523830045A651 /* HarkkatyöUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D12DCF4623F523830045A651 /* Harkkatyo_UITests.swift */,
+				D12DCF4823F523830045A651 /* Info.plist */,
+			);
+			path = "HarkkatyöUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D12DCF2023F523810045A651 /* Harkkatyö */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12DCF4B23F523830045A651 /* Build configuration list for PBXNativeTarget "Harkkatyö" */;
+			buildPhases = (
+				D12DCF1D23F523810045A651 /* Sources */,
+				D12DCF1E23F523810045A651 /* Frameworks */,
+				D12DCF1F23F523810045A651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Harkkatyö";
+			productName = "Harkkatyö";
+			productReference = D12DCF2123F523810045A651 /* Harkkatyo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D12DCF3623F523830045A651 /* HarkkatyöTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12DCF4E23F523830045A651 /* Build configuration list for PBXNativeTarget "HarkkatyöTests" */;
+			buildPhases = (
+				D12DCF3323F523830045A651 /* Sources */,
+				D12DCF3423F523830045A651 /* Frameworks */,
+				D12DCF3523F523830045A651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12DCF3923F523830045A651 /* PBXTargetDependency */,
+			);
+			name = "HarkkatyöTests";
+			productName = "HarkkatyöTests";
+			productReference = D12DCF3723F523830045A651 /* HarkkatyöTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D12DCF4123F523830045A651 /* HarkkatyöUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12DCF5123F523830045A651 /* Build configuration list for PBXNativeTarget "HarkkatyöUITests" */;
+			buildPhases = (
+				D12DCF3E23F523830045A651 /* Sources */,
+				D12DCF3F23F523830045A651 /* Frameworks */,
+				D12DCF4023F523830045A651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12DCF4423F523830045A651 /* PBXTargetDependency */,
+			);
+			name = "HarkkatyöUITests";
+			productName = "HarkkatyöUITests";
+			productReference = D12DCF4223F523830045A651 /* HarkkatyöUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D12DCF1923F523810045A651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Jani Niculescu";
+				TargetAttributes = {
+					D12DCF2023F523810045A651 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					D12DCF3623F523830045A651 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = D12DCF2023F523810045A651;
+					};
+					D12DCF4123F523830045A651 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = D12DCF2023F523810045A651;
+					};
+				};
+			};
+			buildConfigurationList = D12DCF1C23F523810045A651 /* Build configuration list for PBXProject "Harkkatyö" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D12DCF1823F523810045A651;
+			productRefGroup = D12DCF2223F523810045A651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D12DCF2023F523810045A651 /* Harkkatyö */,
+				D12DCF3623F523830045A651 /* HarkkatyöTests */,
+				D12DCF4123F523830045A651 /* HarkkatyöUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D12DCF1F23F523810045A651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E9EC7523F6886D00525771 /* SceneDelegate.swift in Resources */,
+				D12DCF3123F523830045A651 /* LaunchScreen.storyboard in Resources */,
+				D12DCF2E23F523820045A651 /* Assets.xcassets in Resources */,
+				D12DCF2C23F523810045A651 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12DCF3523F523830045A651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12DCF4023F523830045A651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D12DCF1D23F523810045A651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12DCF2923F523810045A651 /* ViewController.swift in Sources */,
+				D12DCF2523F523810045A651 /* AppDelegate.swift in Sources */,
+				D12DCF2723F523810045A651 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12DCF3323F523830045A651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12DCF3C23F523830045A651 /* Harkkatyo_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12DCF3E23F523830045A651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12DCF4723F523830045A651 /* Harkkatyo_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D12DCF3923F523830045A651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12DCF2023F523810045A651 /* Harkkatyö */;
+			targetProxy = D12DCF3823F523830045A651 /* PBXContainerItemProxy */;
+		};
+		D12DCF4423F523830045A651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12DCF2023F523810045A651 /* Harkkatyö */;
+			targetProxy = D12DCF4323F523830045A651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D12DCF2A23F523810045A651 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12DCF2B23F523810045A651 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D12DCF2F23F523830045A651 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12DCF3023F523830045A651 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D12DCF4923F523830045A651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D12DCF4A23F523830045A651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D12DCF4C23F523830045A651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Harkkatyö/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jani.Harkkatyo;
+				PRODUCT_NAME = Harkkatyo;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D12DCF4D23F523830045A651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Harkkatyö/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jani.Harkkatyo;
+				PRODUCT_NAME = Harkkatyo;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D12DCF4F23F523830045A651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HarkkatyöTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jani.Harkkatyo-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harkkatyö.app/Harkkatyö";
+			};
+			name = Debug;
+		};
+		D12DCF5023F523830045A651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HarkkatyöTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jani.Harkkatyo-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harkkatyö.app/Harkkatyö";
+			};
+			name = Release;
+		};
+		D12DCF5223F523830045A651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HarkkatyöUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jani.Harkkatyo-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Harkkatyö";
+			};
+			name = Debug;
+		};
+		D12DCF5323F523830045A651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HarkkatyöUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jani.Harkkatyo-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Harkkatyö";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D12DCF1C23F523810045A651 /* Build configuration list for PBXProject "Harkkatyö" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12DCF4923F523830045A651 /* Debug */,
+				D12DCF4A23F523830045A651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12DCF4B23F523830045A651 /* Build configuration list for PBXNativeTarget "Harkkatyö" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12DCF4C23F523830045A651 /* Debug */,
+				D12DCF4D23F523830045A651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12DCF4E23F523830045A651 /* Build configuration list for PBXNativeTarget "HarkkatyöTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12DCF4F23F523830045A651 /* Debug */,
+				D12DCF5023F523830045A651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12DCF5123F523830045A651 /* Build configuration list for PBXNativeTarget "HarkkatyöUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12DCF5223F523830045A651 /* Debug */,
+				D12DCF5323F523830045A651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D12DCF1923F523810045A651 /* Project object */;
+}
